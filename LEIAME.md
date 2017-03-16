@@ -57,7 +57,7 @@ Com o tempo fui melhorando o layout e acrescentando novas funções, como um ger
  
 ### O Osciloscópio
        
-![Imagem do Osciloscopio](./images/0%20-%20osciloscopio.bmp)
+[![Imagem do Osciloscopio](./images/0%20-%20osciloscopio.bmp)](https://www.youtube.com/watch?v=aw_kyDAiNak)
 
 ![Imagem do Osciloscopio](./images/rog-000001381.jpg)
 
