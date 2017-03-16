@@ -1,6 +1,6 @@
-## Osciloscópio com Arduino e Processing
+# Osciloscópio com Arduino e Processing
 
-## Descrição
+### Descrição
 
 Osciloscópio de amostragem com 4 canais (tensões de 0 a 5V), com frequências até 3kHz.
 
@@ -14,7 +14,7 @@ Usei a linguagem de programação "Processing" (www.processing.org) para criar o
 
 Veja uma [demonstração]( https://www.youtube.com/watch?v=aw_kyDAiNak) no youtube.
 
-## Um pouco de história!     (leitura opcional!)
+### Um pouco de história!     (leitura opcional!)
 Eu soube da existência do Arduino no início de 2015  e fiquei impressionado com a facilidade de criarmos projetos tanto na montagem dos componentes quanto na digitação do código. (eu já havia feito um TCC no Senai usando o PIC16F877a e MikroC, então posso fazer essa afirmação com propriedade).
 
 Os Shields e as bibliotecas nos deixam livres dos códigos das entranhas do microcontrolador, e nos permite focar apenas na criação e funcionalidade do nosso projeto.
@@ -33,7 +33,7 @@ Em Julho de 2015 conclui a minha primeira versão do osciloscópio que chamei de
 
 Com o tempo fui melhorando o layout e acrescentando novas funções, como um gerador de PWM e um medidor de resistor e capacitor.
 
-## Capacidades do Osciloscópio
+### Capacidades do Osciloscópio
 
 - Monitorar até 4 canais de tensão (0 a 5V).
 
@@ -55,22 +55,32 @@ Com o tempo fui melhorando o layout e acrescentando novas funções, como um ger
 
 
  
-## O Osciloscópio
+### O Osciloscópio
        
- 
-## O circuito no mini proto shield
+![Imagem do Osciloscopio](./images/0%20-%20osciloscopio.bmp)
+
+![Imagem do Osciloscopio](./images/rog-000001381.jpg)
+
+![Imagem do Osciloscopio](./images/rog-000005065.jpg)
+
+
+### O circuito no mini proto shield
  
- 
-## O circuito de leitura do resistor e capacitor
+ ![Imagem do Osciloscopio](./images/4%20-%20garaginoscopio_bb.jpg )
  
- 
-## O CI 74HC4052 (multiplexador analógico)
+### O circuito de leitura do resistor e capacitor
  
- 
-## O programa em Processing
+![Imagem do Osciloscopio](./images/6%20-%20ler%20resistor%20e%20capacitor.jpg)
+
+### O CI 74HC4052 (multiplexador analógico)
  
- 
-## Melhorias para o futuro
+![Imagem do Osciloscopio](./images/5%20-%20multiplex%20analogico%20hcf4052be%20-%20cd4052.jpg)
+
+### O programa em Processing
+ 
+![Imagem do Osciloscopio](./images/7%20-%20programa%20processing.jpg)
+
+### Melhorias para o futuro
 
 - Medir tensões 110/220 Vac
 
@@ -78,7 +88,7 @@ Com o tempo fui melhorando o layout e acrescentando novas funções, como um ger
 
 - Usar conexão bluetooth para conectar o osciloscópio ao celular (Android)
 
-##Finalizando
+### Finalizando
 
 Eu gostei muito de desenvolver os programas e o hardware do osciloscópio.
 
