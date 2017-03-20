@@ -50,6 +50,38 @@ You can have the oscilloscope functions, the PWM signal, and the Square Wave gen
 ![Imagem do Osciloscopio](./images/rog-000005065.jpg)
 
 
+### The circuit using Arduino
+ 
+![Imagem do Osciloscopio](./images/oscilloscope-en.png )
+ 
+### The circuit using Garagino
+ 
+![Imagem do Osciloscopio](./images/4%20-%20garaginoscopio_bb.jpg )
+ 
+ 
+### The resistor and capacitor reading circuit
+ 
+![Imagem do Osciloscopio](./images/6%20-%20ler%20resistor%20e%20capacitor.jpg)
 
+### The 74HC4052 CI (analog multiplexer)
+ 
+![Imagem do Osciloscopio](./images/5%20-%20multiplex%20analogico%20hcf4052be%20-%20cd4052.jpg)
 
+### The Processing program
+ 
+![Imagem do Osciloscopio](./images/7%20-%20programa%20processing.jpg)
+
+### Improvements for the future
+
+- Measuring voltages 110/220 Vac
+
+- Increase frequency capacity using more powerful microcontrollers.
+
+- Use bluetooth connection to connect oscilloscope to mobile phone (Android)
+
+### Finishing
+
+I really enjoyed developing oscilloscope programs and hardware.
+
+I believe it has great potential for a more professional product.
 
