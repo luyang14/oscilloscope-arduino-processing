@@ -102,8 +102,9 @@ void setup() {
   Timer1.attachInterrupt(callback); //attaches callback() como timer overflow interrupt
   //Timer1.stop();
   
-  //Serial.begin(115200);
-  Serial.begin(250000);
+  //Serial.begin(9600);
+  Serial.begin(115200);
+  //Serial.begin(250000);
   printHelp();
   printConfig();
 
@@ -385,7 +386,7 @@ unsigned long microsOuMillis(){
 boolean trigger(){ // a variavel canalTrigger indica qual canal fará o trigger: 0,1,2 ou 3
   unsigned long tFim; // contador do tempo Final
   int v1=0,v2=0; 
-  int c1=0, c2=0;
+  //int c1=0, c2=0;
   boolean achou=false;
     tFim=microsOuMillis()+q*dt;
     // dispara na subida do valor vtrigger+10
@@ -393,7 +394,7 @@ boolean trigger(){ // a variavel canalTrigger indica qual canal fará o trigger:
     //   E tempo menor que tFim
     do{
       v1=analogRead(canalTrigger-'0');
-      c1++;
+      //c1++;
     }while (v1>vtrigger && microsOuMillis()<tFim);
   //  while (v1=analogRead(canalTrigger-'0')>0 && microsOuMillis()<tFim){c1++;}
     if (v1<=vtrigger){
@@ -402,7 +403,7 @@ boolean trigger(){ // a variavel canalTrigger indica qual canal fará o trigger:
       // E tempo menor que tFim
       do{
         v2=analogRead(canalTrigger-'0');
-        c2++;
+        //c2++;
       }while(v2<=10+vtrigger && microsOuMillis()<tFim);
       //while (v2=analogRead(canalTrigger-'0')<=0 && microsOuMillis()<tFim){c2++;}
       if (v2>10+vtrigger){ 
